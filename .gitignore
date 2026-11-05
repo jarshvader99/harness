@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# macOS
+.DS_Store
+
+# SwiftPM and the built app
+app/.build/
+app/dist/
+
+# Generated icon (rebuilt by app/build-app.sh via make-icon.py)
+app/AppIcon.icns
+app/icon-1024.png
+
+# Harness runtime data: runs, chats, the agent's workspace and saved tasks
+runs/
+chats/
+sandbox/
+tasks/
+*.log
+
+# Personal notes
+idea.md
